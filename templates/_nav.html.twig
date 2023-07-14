@@ -1,0 +1,34 @@
+	<!-- Fixed navbar -->
+		
+	<div class="navbar navbar-inverse navbar-fixed-top headroom" >
+		<div class="container">
+			<div class="navbar-header">
+				<!-- Button for smallest screens -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+				<a class="navbar-brand" href="{{path('app_home')}}"><img src="{{asset('images/logo.png')}}" alt="Progressus HTML5 template" style="width:60px;"> LADM</a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav pull-right">
+					<li><a href="{{path('app_home')}}">Accueil</a></li>
+					<li><a href="{{path('app_about')}}">À propos de nous</a></li>
+					<li><a href="{{path('app_projet')}}">Projet</a></li>
+					<li><a href="{{path('app_contact')}}">Contact</a></li>
+					<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Identifiez vous 
+						<b class="caret"></b>
+					</a>
+					<ul class="dropdown-menu">
+						<li>
+							{# <a href="{{path('app_register')}}">Identification</a> #}
+						</li>
+						<li>
+							<a href="{{path('app_register')}}">Inscription</a>
+						</li>
+					</ul>
+				</li>
+					<li><a class="btn" href="{{path('app_don')}}">FAIRE UN DON</a></li>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</div> 
+	<!-- /.navbar -->

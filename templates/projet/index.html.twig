@@ -1,0 +1,133 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}LES AMIS DU MONDE || Projet{% endblock %}
+
+{% block body %}
+	
+
+	<!-- container -->
+	<div class="container">
+
+		<ol class="breadcrumb">
+			
+			<li class="dropdown">
+			
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" >Nos Projet
+						<b class="caret"></b>
+					</a>
+					<ul class="dropdown-menu">
+						<li>
+							<a href="sidebar-left.html">Left Sidebar</a>
+						</li>
+						<li class="active">
+							{# <a href="{{path('app_admin_projet_show')}}">Projet 1</a>'admin_projet/show.html.twig' #}
+							{# <a href="{{path('admin_projet')}}">Projet 1</a> #}
+						</li>
+						<li class="active">
+							<a href="{{path('app_projet')}}">projet</a>
+						</li>
+					</ul>
+				</li>
+		</ol>
+
+		<div class="row">
+			
+			<!-- Article main content -->
+			<article class="col-md-8 maincontent">
+				<header class="page-header">
+					<h1 class="page-title">L'ONG  les amis du monde LADM vous présente c'est activités.</h1>
+				</header>
+				<p> 
+					Dans l'optique de bien mener ces activités de développement, de création d'emplois, et de soutiens LADM à travers le président  sem DJAH ZIDAGO LAZARE c'est érigé en conglomérat.
+					Désormais l'ONG LES AMIS DU MONDE est non seulement une ONG mais une union de groupement, association et d'entreprises.
+					De ce fait nous avons initiés des programmes de développement dans tout les domaines.
+        		</p>
+				<p>	LE PROGRAMME LADM et sponsors. <br>
+					LE PROGRAMME DE COMMERCE <br>
+					LE PROGRAMME D'INSERTION <br>
+					LE PROGRAMME DE TRANSPORT  <br>
+					LE PROGRAMME IMMOBILIER <br>
+					LE PROGRAMME CULTUREL </p> 
+				<p>nous vous donnerons plus de détails dans un instant. <br>LADM quand le troupeau est Unis le lion dort ventre creux</p>
+
+				<h2>Nos projets pour cette année</h2>
+				<p> 
+					AGRICULTURE <br>
+					_ marechaire <br>
+					_ vivrières <br>
+					_ maïs <br>
+					_ riz <br>
+					_ Culture pérenne 
+
+				</p>
+				<p>
+					FORMATION <br>
+					-Métiers d'agriculture <br>
+					_Métiers de cuisine <br>
+					_Métiers  de bâtiment <br>
+					_Métiers de sécurité 
+				</p>
+
+				<p>
+					TRANSPORT<br>
+					_Acquisition de véhicule <br>
+					 _Transport commun <br>
+					_ import et export
+				</p>
+				<p>
+					IMMOBILIER<br>
+					_Acquérir un terrain et pay er par tranche <br>
+					_Acquérir une maison et payer par tranche <br>
+					_lotissement
+				</p>
+
+				<p>
+					COMMERCE<br>
+					_Publicité des entreprises <br>
+					_Magasin collectif <br>
+					_subvention 
+				</p>
+				<p>Je voudrais que cette année nous investissons en un premier temps dans le riz et la maïs 
+					En côte d'ivoire nous avons 16 hectares propice pour le maïs et vivrières 
+					12 hectare propice pour le riz et la marechaire 
+					Pour le maïs il nous faut pour les 16 hectares nous avons besoin de 3 008 000f 
+					Le riz pour 12 hectares nous avons besoin de 2 760 000f 
+					Total 5 768 000f 
+					J'appel tout le monde a investire dans le projet car ce projet va generer de benefices pour bien mener notre vision 
+					Remborsement avec 17 % de la valeur investi.
+					Nous allons regrouper les membres par secteur et zone en nombre de 10 ou 20
+					émission de courrier aux différents administrations et ministère
+				</p>
+			</article> 
+
+			<!-- /Article -->
+			
+			<!-- Sidebar -->
+			<aside class="col-md-4 sidebar sidebar-right">
+
+				<div class="row widget">
+					<div class="col-xs-12">
+						<h4>Lorem ipsum dolor sit</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, ratione delectus reiciendis nulla nisi pariatur molestias animi eos repellat? Vel.</p>
+					</div>
+				</div>
+				<div class="row widget">
+					<div class="col-xs-12">
+						<h4>Lorem ipsum dolor sit</h4>
+						<p><img src="{{asset('images/img7.jpg')}}" alt=""></p>
+					</div>
+				</div>
+				<div class="row widget">
+					<div class="col-xs-12">
+						<h4>Lorem ipsum dolor sit</h4>
+						<p><img src="{{asset('images/img4.jpg')}}" alt=""></p>
+						<p>Qui, debitis, ad, neque reprehenderit laborum soluta dolor voluptate eligendi enim consequuntur eveniet recusandae rerum? Atque eos corporis provident tenetur.</p>
+					</div>
+				</div>
+
+			</aside>
+			<!-- /Sidebar -->
+
+		</div>
+	</div>	<!-- /container -->
+{% endblock %}
